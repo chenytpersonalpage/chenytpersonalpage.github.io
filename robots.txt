@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: jindongwang.github.io/sitemap.xml
+Sitemap: chenytpersonalpage.github.io/sitemap.xml
