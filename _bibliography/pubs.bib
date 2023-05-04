@@ -1,0 +1,239 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@article{li2023gamify,
+  abbr={Under review},
+  title={Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing},
+  author={Li, Kun and Li, Zhichun and Chen, Yuetao and Wang, Zixuan and Zhang, Yiwei and Yuan, Liang and Jia, Haipeng and Zhang, Yunquan and Cao*, Ting and Yang, Mao.},
+  abstract={Stencil computation is one of the most important kernels in various scientific computing. Nowadays, most Stencil-driven scientific computing still relies heavily on supercomputers, suffering from expensive access, poor scalability, and duplicated optimizations. This paper proposes Tetris, the first system for high-performance Stencil on heterogeneous CPU+GPU, towards democratizing Stencil-driven scientific computing on Cloud. In Tetris, polymorphic tiling tetrominoes are first proposed to bridge different hardware architectures and various application contexts with a perfect spatial and temporal tessellation automatically. Tetris is contributed by three main components: (1) Underlying hardware characteristics are first captured to achieve a sophisticated Pattern Mapping by register-level tetrominoes; (2) An efficient Locality Enhancer is first presented for data reuse on spatial and temporal dimensions simultaneously by cache/SMEM-level tetrominoes; (3) A novel Concurrent Scheduler is first designed to exploit the full potential of on-cloud memory and computing power by memory-level tetrominoes. Tetris is orthogonal to (and complements) the optimizations or deployments for a wide variety of emerging and legacy scientific computing applications. Results of thermal diffusion simulation demonstrate that the performance is improved by 29.6x, reducing time cost from day to hour, while preserving the original accuracy.},
+  journal={arXiv preprint (submitted to SOSP 2023)},
+  year={2023},
+  url={https://arxiv.org/abs/2303.08365},
+  html={https://arxiv.org/abs/2303.08365},
+  pdf={tetris.pdf},
+  selected={true}
+}
+
+@inproceedings{liu2023intelligent,
+  abbr={FAST 23},
+  title={Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach},
+  author={Liu*, Lei and Dou, Xinglei and Chen, Yuetao},
+  abstract={Latency-critical services have been widely deployed in cloud environments. For cost-efficiency, multiple services are usually co-located on a server. Thus, run-time resource scheduling becomes the pivot for QoS control in these complicated co-location cases. However, the scheduling exploration space enlarges rapidly with the increasing server resources, making the schedulers hardly provide ideal solutions quickly. More importantly, we observe that there are “resource cliffs” in the scheduling exploration space. They affect the exploration efficiency and always lead to severe QoS fluctuations in previous schedulers. To address these problems, we propose a novel ML-based intelligent scheduler – OSML. It learns the correlation between architectural hints (e.g., IPC, cache misses, memory footprint, etc.), scheduling solutions and the QoS demands based on a data set we collected from 11 widely deployed services running on off-the-shelf servers. OSML employs multiple ML models to work collaboratively to predict QoS variations, shepherd the scheduling, and recover from QoS violations in complicated co-location cases. OSML can intelligently avoid resource cliffs during scheduling and reach an optimal solution much faster than previous approaches for co-located LC services. Experimental results show that OSML supports higher loads and meets QoS targets with lower scheduling overheads and shorter convergence time than previous studies.},
+  booktitle={21st USENIX Conference on File and Storage Technologies (FAST 23)},
+  pages={153--166},
+  year={2023},
+  url={https://www.usenix.org/conference/fast23/presentation/liu},
+  html={https://www.usenix.org/conference/fast23/presentation/liu},
+  pdf={fast23.pdf},
+  selected={true}
+}
+
+@article{chen2022smart,
+  abbr={CCF THPC},
+  title={Smart scheduler: an adaptive NVM-aware thread scheduling approach on NUMA systems},
+  author={Chen, Yuetao and Qiu, Keni and Chen, Li and Jia, Haipeng and Zhang, Yunquan and Xiao, Limin and Liu*, Lei},
+  abstract={NVM provides large memory capacity, long-term data durability, and high memory bandwidth for multi-thread applications on cloud servers. Nowadays, cloud servers often employ NUMA architecture, where the thread scheduling mechanism plays a vital role in overall system performance because of the NUMA property. However, with the increase in server resources’ diversity, i.e., hybrid memory systems using DRAM and NVM on NUMA nodes, the exploration space for thread scheduling is expanding rapidly. Unfortunately, the existing thread schedulers, including rule-based algorithms and scheduling domain methods, cannot provide ideal scheduling solutions in such complicated cases. And, those thread schedulers neglect customized heterogeneous memory structures, thus degrading overall system performance. Fortunately, reinforcement learning can choose actions with maximum rewards values in a specific environment, leading the scheduler towards an optimal solution. In this paper, we propose a thread scheduling approach, i.e., Smart Scheduler, by leveraging a reinforcement learning method. Smart Scheduler takes OS event information as input, extends LinUCB to explore the scheduling space, and guides thread-level scheduling. We evaluate Smart Scheduler on the off-the-shelf server equipped with NVM. The experimental results show that the proposed Smart Scheduler can converge faster (usually within 20 actions) than rule-based algorithms and scheduling domain methods and reduce program execution time by up to 59.9%. It also outperforms rule-based algorithms and scheduling domain methods by 4.1% and 19.1% in quality of service latency.},
+  journal={CCF Transactions on High Performance Computing},
+  pages={1--13},
+  year={2022},
+  publisher={Springer},
+  url={https://link.springer.com/article/10.1007/s42514-022-00110-2},
+  html={https://link.springer.com/article/10.1007/s42514-022-00110-2},
+  pdf={ccfthpc.pdf},
+  selected={true}
+}
+
+@article{2021-09-1856,
+  abbr={JCRD},
+  journal={Journal of Computer Research and Development},
+  title={An Investigation into Quantum Program Mapping on Superconducting Quantum Computers},
+  author={Dou, Xinglei and Liu*, Lei and Chen, Yuetao},
+  abstract={Errors occur due to noise when quantum programs are running on a quantum computer. Previous quantum program mapping solutions map a specific quantum program onto the most reliable region on a quantum computer for higher fidelity. Mapping multiple quantum programs onto a specific quantum computer simultaneously improves the throughput and resource utilization of the quantum computer. However, due to the scarcity of robust resources and resource allocation conflict, multi-programming on quantum computers leads to a decline in overall fidelity. We introduce quantum program mapping, classify the related studies, and analyze their characteristics and differences. Furthermore, we propose a new mapping solution for mapping concurrent quantum programs, including three key designs. 1) We propose a community detection assisted qubit partition (CDAQP) algorithm, which partitions physical qubits for concurrent quantum programs according to both physical topology and the error rates, improving the reliability of initial mapping and avoiding the waste of robust resources. 2) We introduce inter-program SWAPs, reducing the mapping overheads of concurrent quantum programs. 3) A framework for scheduling quantum program mapping tasks is proposed, which dynamically selects concurrent quantum programs to be executed, improving the throughput while ensuring the fidelity of the quantum computers. Our approach improves the fidelity by 8.6% compared with the previous solution while reducing the mapping overheads by 11.6%. Our system is a prototype of the OS for quantum computers—QuOS.},
+  volume={58},
+  pages={1856-1874},
+  year={2021},
+  doi={10.7544/issn1000-1239.2021.20210314},
+  url={https://crad.ict.ac.cn/en/article/doi/10.7544/issn1000-1239.2021.20210314},
+  html={https://crad.ict.ac.cn/en/article/doi/10.7544/issn1000-1239.2021.20210314},
+  pdf={JCRD-2021.pdf},
+  selected={true}
+}
+
+inproceedings{lu2023generalized,
+  title={Out-of-distribution Representation Learning for Time Series Classification},
+  author={Lu, Wang and Wang, Jindong and Sun, Xinwei and Chen, Yiqiang and Xie*, Xing},
+  booktitle={I11nternational Conference on Learning Representations (ICLR)},
+  year={2023},
+
+  arxiv={https://arxiv.org/abs/2209.07027},
+  corr={false},
+  selected={true},
+  code={https://github.com/microsoft/robustlearn},
+  zhihu={https://zhuanlan.zhihu.com/p/614873150},
+  website={https://openreview.net/forum?id=gUZWOE42l6Q}
+}
+
+inproceedings{wang2023freematch,
+  title={FreeMatch: Self-adaptive Thresholding for Semi-supervised Learning},
+  author={Wang, Yidong and Chen, Hao and Heng, Qiang and Hou, Wenxin and Fan, Yue and Wu, Zhen and Wang, Jindong and Savvides, Marios and Shinozaki, Takahiro and Raj, Bhiksha and  and Schiele, Bernt and Xie, Xing},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2023},
+
+  arxiv={https://arxiv.org/abs/2205.07246},
+  corr={true},
+  selected={true},
+  code={https://github.com/microsoft/Semi-supervised-learning},
+  zhihu={https://zhuanlan.zhihu.com/p/602455945},
+  website={https://openreview.net/forum?id=kQ7siXDxiFU}
+}
+
+inproceedings{chen2023freematch,
+  title={SoftMatch: Addressing the Quantity-Quality Tradeoff in Semi-supervised Learning},
+  author={Chen, Hao and Tao, Ran and Fan, Yue and Wang, Yidong and Wang, Jindong and Schiele, Bernt and Xie, Xing and Raj, Bhiksha and Savvides, Marios},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2023},
+
+  arxiv={https://arxiv.org/abs/2301.10921},
+  corr={true},
+  code={https://github.com/microsoft/Semi-supervised-learning},
+  zhihu={https://zhuanlan.zhihu.com/p/612258797},
+  website={https://openreview.net/forum?id=Q84s1buSmg8}
+}
+
+inproceedings{wang2023robustness,
+  title={On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective},
+  author={Wang, Jindong and Hu, Xixu and Hou, Wenxin and Chen, Hao and Zheng, Runkai and Wang, Yidong and Yang, Linyi and Huang, Haojun and Ye, Wei and Geng, Xiubo and Jiao, Binxin and Zhang, Yue and Xie, Xing},
+  booktitle={ICLR workshop on Trustworthy and Reliable Large-Scale Machine Learning Models (ICLR 2023 workshop)},
+  year={2023},
+
+  arxiv={https://arxiv.org/abs/2302.12095},
+  corr={true},
+  code={https://github.com/microsoft/robustlearn},
+  zhihu={https://zhuanlan.zhihu.com/p/612391048},
+}
+
+inproceedings{lu2023fedclip,
+  title={FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning},
+  author={Lu, Wang and Hu, Xixu and Wang, Jindong and Xie, Xing},
+  booktitle={ICLR workshop on Trustworthy and Reliable Large-Scale Machine Learning Models (ICLR 2023 workshop)},
+  year={2023},
+
+  arxiv={https://arxiv.org/abs/2302.13485v1},
+  corr={true},
+  code={https://github.com/microsoft/PersonlizedFL},
+}
+
+inproceedings{wang2022usb,
+  title={USB: A Unified Semi-supervised Learning Benchmark},
+  author={Wang, Yidong and Chen, Hao and Fan, Yue and Sun, Wang and Tao, Ran and Hou, Wenxin and Wang, Renjie and Yang, Linyi and Zhou, Zhi and Guo, Lan-Zhe and Qi, Heli and Wu, Zhen and Li, Yu-Feng and Nakamura, Satoshi and Ye, Wei and Savvides, Marios and Raj, Bhiksha and Shinozaki, Takahiro and Schiele, Bernt and Wang, Jindong and Xie, Xing and Zhang, Yue},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+
+  corr={true},
+  code={https://github.com/microsoft/Semi-supervised-learning},
+  arxiv={https://arxiv.org/abs/2208.07204},
+  zhihu={https://zhuanlan.zhihu.com/p/566055279},
+  blog={https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/articles/pushing-the-limit-of-semi-supervised-learning-with-the-unified-semi-supervised-learning-benchmark/}
+}
+
+inproceedings{wang2022margin,
+  title={Margin Calibration for Long-Tailed Visual Recognition},
+  author={Wang, Yidong and Zhang, Bowen and Hou, Wenxin and Wu, Zhen and Wang, Jindong and Shinozaki, Takahiro},
+  booktitle={Asian Conference on Machine Learning (ACML)},
+  year={2022},
+  arxiv={https://arxiv.org/abs/2112.07225},
+  bibtex_show={true},
+  corr={true},
+
+  zhihu={https://zhuanlan.zhihu.com/p/579153319},
+  code={https://github.com/microsoft/robustlearn}
+}
+
+inproceedings{wang2022exploiting,
+  title={Exploiting Unlabeled Data for Target-Oriented Opinion Words Extraction},
+  author={Wang, Yidong and Wu, Hao and Liu, Ao and Hou, Wenxin and Wu, Zhen and Wang, Jindong and Shinozaki, Takahiro and Okumura, Manabu and Zhang, Yue},
+  booktitle={International Conference on Computational Linguistics (COLING)},
+  year={2022},
+  arxiv={https://arxiv.org/abs/2208.08280},
+  pdf={coling22.pdf},
+  code={https://github.com/TOWESSL/TOWESSL}
+}
+
+article{wang2022generalizing,
+  title={Generalizing to Unseen Domains: A Survey on Domain Generalization},
+  author={Wang, Jindong and Lan, Cuiling and Liu, Chang and Ouyang, Yidong and Qin, Tao and Lu, Wang and Chen, Yiqiang and Zeng, Wenjun and Yu, Philip S.},
+  journal={IEEE Transactions on Knowledge and Data Engineering (TKDE)},
+  year={2022},
+
+  bibtex_show={true},
+  abbr={TKDE},
+  arxiv={https://arxiv.org/abs/2103.03097},
+  code={https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG},
+  slides={DGtutorial_ijcai22.pdf},
+  selected={true},
+  pdf={DG_survey_TKDE22.pdf},
+  website={https://dgresearch.github.io/}
+}
+
+article{lu2022domain,
+  title={Domain-invariant Feature Exploration for Domain Generalization },
+  author={Lu, Wang and Wang, Jindong and Li, Haoliang and Chen, Yiqiang and Xie, Xing},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  year={2022},
+
+  bibtex_show={true},
+  corr={true},
+  abbr={TMLR},
+  website={https://openreview.net/forum?id=0xENE7HiYm},
+  arxiv={https://arxiv.org/abs/2207.12020},
+  pdf={tmlr22-difex.pdf}
+}
+
+article{qin2022domain,
+  title={Domain generalization for activity recognition via adaptive feature fusion},
+  author={Qin, Xin and Wang, Jindong and Chen, Yiqiang and Lu, Wang and Jiang, Xinlong},
+  journal={ACM Transactions on Intelligent Systems and Technology (TIST)},
+  year={2022},
+
+  bibtex_show={true},
+  abbr={TIST},
+  corr={true},
+  arxiv={https://arxiv.org/abs/2207.11221},
+  pdf={tist22-affar.pdf}
+}
+
+article{zhu2022memory,
+  title={Memory-Guided Multi-View Multi-Domain Fake News Detection},
+  author={Zhu, Yongchun and Sheng, Qiang and Cao, Juan and Nan, Qiong and Shu, Kai and Wu, Minghui and Wang, Jindong and Zhuang, Fuzhen},
+  journal={IEEE Transactions on Knowledge and Data Engineering (TKDE)},
+  year={2022},
+
+  bibtex_show={true},
+  abbr={TKDE},
+  arxiv={https://arxiv.org/abs/2206.12808},
+  pdf={tkde22-mdfend.pdf}
+}
+
+inproceedings{zhu2022decoupled,
+  title={Decoupled Federated Learning for ASR with Non-IID Data},
+  author={Zhu, Han and Wang, Jindong and Cheng, Gaofeng and Zhang, Pengyuan and Yan, Yonghong},
+  booktitle={Interspeech},
+  year={2022},
+
+  abbr={IS},
+  arxiv={https://arxiv.org/abs/2206.09102},
+  pdf={DecoupleFL-IS22.pdf}
+}
+
+inproceedings{zhu2022wav2vec,
+  title={Wav2vec-s: Semi-supervised pre-training for speech recognition},
+  author={Zhu, Han and Wang, Li and Hou, Ying and Wang, Jindong and Cheng, Gaofeng and Zhang, Pengyuan and Yan, Yonghong},
+  booktitle={Interspeech},
+  year={2022},
+
+  abbr={IS},
+  arxiv={https://arxiv.org/abs/2110.04484},
+  pdf={Wav2vecs-IS22.pdf}
+}

@@ -1,26 +1,24 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  align: left
+  image: me2.png
+  address: 
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Do not Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<b>Master Student, Institute of Computing Technology, Chinese Academy of Sciences</b><br>
+No.6 Kexueyuan South Road, Zhongguancun, Haidian District, Beijing, China<br>
+<b>y_t_chen [at] outlook.com, chenyuetao21s [at] ict.ac.cn</b><br>
+[Wechat](http://jd92.wang/assets/img/wechat_public_account.jpg) || [Resume](https://www.jianguoyun.com/p/DagJaZEQjKnsBRjbkeAEIAA) 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm currently a Master student at Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS), advised by Professor Lei Liu & Li Chen. Previously,  I was an undergraduate student at Beijing Jiaotong University & Lancaster University.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Announcement:** I'm applying to Ph.D (2024 Fall).
