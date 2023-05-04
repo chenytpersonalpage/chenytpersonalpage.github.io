@@ -71,7 +71,7 @@ rss_icon: true
 contact_note: 
   #You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: G-LRLQJKW7E9 # out your google-analytics code
+google_analytics: G-M83GM6QKSD # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
@@ -237,7 +237,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_mansory:             false   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
