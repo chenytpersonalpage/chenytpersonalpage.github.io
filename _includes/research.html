@@ -1,0 +1,49 @@
+<h4 id="research">Research</h4>
+
+<h6 id="-bridging-the-gap-between-stencil-and-convolution-"><strong>Bridging the Gap Between Stencil and Convolution</strong></h6>
+<p>Advisor: Dr. Kun Li | Microsoft Research Asia</p>
+<p>This project analyzed the similarities and differences between stencils and convolutions and optimized them for acceleration on GPUs based on the characteristics of GPU hardware. </p>
+<ul>
+<li>Currently, I have developed and proposed a new Tensor core algorithm for stencil computing, based on the img2col approach, that leverages Tensor core processing power for single-channel computations.</li>
+</ul>
+<h6 id="-stencil-computing-on-heterogeneous-platform-"><strong>Stencil Computing on Heterogeneous Platform</strong></h6>
+<p>Advisor: Dr. Kun Li | Microsoft Research Asia</p>
+<p>It is the first system for high-performance Stencil on heterogeneous CPU+GPU with novel optimizations on both CPU and GPU. It leverages Pattern Mapping by Register-level Tetrominoes to efficiently utilize SIMD on CPUs and Tensor Cores on GPUs. It also leverages locality by cache/SMEM-level tetrominoes and implement CPU and GPU Collaboration.</p>
+<ul>
+<li>Implemented a new CPU SIMD register level algorithm for stencil computing, resulting in significant performance improvements of 6.3% - 19.9% on different stencil kernel shapes.</li>
+<li>Replicated the tessellate tiling (SC &#39;17) to be coordinated with SIMD algorithm.</li>
+<li><p>Designed a data exchange method between CPU and GPU for stencil computation which covers the communication latency by computation.</p>
+</li>
+<li><p><strong>[arXiv (submitted to SOSP)]</strong> <a href="https://arxiv.org/pdf/2303.08365.pdf">Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing</a>. Kun Li, Zhichun Li, Yuetao Chen, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.</p>
+</li>
+</ul>
+<h6 id="-mobile-platform-resource-scheduling-"><strong>Mobile Platform Resource Scheduling</strong></h6>
+<p>Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences</p>
+<p>It is called MobiRL, a reinforcement learning-based resource scheduler for mobile systems.  It uses a DDPG model to dynamically adjust the upper and lower frequency limits of the CPU&#39;s different clusters and the GPU on mobile devices, in order to achieve the effect of simultaneously reducing frame loss rate and power consumption.</p>
+<ul>
+<li>Implemented a resource scheduling framework for Android devices using the Deep Deterministic Policy Gradient (DDPG) model to optimize performance.</li>
+<li>Designed a piecewise reward function that optimizes energy consumption while limiting frame loss rate, ensuring both efficient use of resources and a high-quality user experience.</li>
+</ul>
+<h6 id="-intelligent-resource-scheduling-for-co-located-services-"><strong>Intelligent Resource Scheduling for Co-located Services</strong></h6>
+<p>Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences</p>
+<p>It is called OSML which employs multiple ML models to work collaboratively to predict QoS variations, shepherd the scheduling, and recover from QoS violations in complicated co-location services. Experimental results show that OSML supports higher loads and meets QoS targets with lower scheduling overheads and shorter convergence time than previous studies.</p>
+<ul>
+<li>Divided the DQN model into two parts to prevent incorrect scheduling decisions and ensure the QoS.</li>
+<li>Designed a resource sharing policy, such as shared cacheline, to optimize resource utilization across co-located services.</li>
+<li>Tuned PARTIES (ASPLOS &#39;19) and CLITE (HPCA &#39;20) for the evaluation and collected and annotated program resource allocation data.</li>
+<li><strong>[FAST 2023]</strong> <a href="https://www.usenix.org/conference/fast23/presentation/liu">Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach</a>. Lei Liu*, Xinglei Dou, Yuetao Chen.</li>
+</ul>
+<h6 id="-nvm-aware-thread-scheduling-approach-on-numa-systems-"><strong>NVM‑aware thread scheduling approach on NUMA systems</strong></h6>
+<p>Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences</p>
+<p>It is an NVM-aware thread scheduling approach for NUMA systems with hybrid memory, utilizing the LinUCB algorithm to guide scheduling decisions and reduce program execution time by up to 59.9\%.</p>
+<ul>
+<li>Found the significant difference in local and remote access bandwidth between NVM and DRAM led to performance loss for existing schedulers.</li>
+<li>Carefully selected appropriate features and used LinUCB to guide thread scheduling, resulting in improved performance.</li>
+<li><strong>[CCF THPC]</strong> <a href="https://link.springer.com/article/10.1007/s42514-022-00110-2">Smart Scheduler: an Adaptive NVM-Aware Thread Scheduling Approach on NUMA Systems</a>. Yuetao Chen, Keni Qiu, Li Chen, Haipeng Jia, Yunquan Zhang, Limin Xiao, Lei Liu*.</li>
+</ul>
+<h6 id="-fast-fourier-transforms-library-"><strong>Fast Fourier Transforms Library</strong></h6>
+<p>Advisor: Prof. Haipeng Jia | Institute of Computing Technology, Chinese Academy of Sciences</p>
+<ul>
+<li>Discovered the changing pattern of FFT algorithm with base 2.</li>
+<li>Automatically generated C language codes for FFT algorithm with base 2.</li>
+</ul>

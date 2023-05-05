@@ -23,7 +23,7 @@ Advisor: Dr. Kun Li | Microsoft Research Asia
 
 It is the first system for high-performance Stencil on heterogeneous CPU+GPU with novel optimizations on both CPU and GPU. It leverages Pattern Mapping by Register-level Tetrominoes to efficiently utilize SIMD on CPUs and Tensor Cores on GPUs. It also leverages locality by cache/SMEM-level tetrominoes and implement CPU and GPU Collaboration.
 
-- Implemented a new CPU SIMD register level algorithm for stencil computing, resulting in significant performance improvements of 6.3\% - 19.9\% on different stencil kernel shapes.
+- Implemented a new CPU SIMD register level algorithm for stencil computing, resulting in significant performance improvements of 6.3% - 19.9% on different stencil kernel shapes.
 - Replicated the tessellate tiling (SC '17) to be coordinated with SIMD algorithm.
 - Designed a data exchange method between CPU and GPU for stencil computation which covers the communication latency by computation.
 
