@@ -16,7 +16,7 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <div class="title" style="padding-top: 0em; padding-bottom: 0px; margin-bottom: 0em;">{{entry.title}}</div>
+      <div class="title" style="padding-top: 0em; padding-bottom: 0px; margin-bottom: 0em;"><font color="6600CC"><b>[{{entry.abbr}}]</b></font> {{entry.title}} </div>
       <div class="author" style="padding-top: 0em; padding-bottom: 0px; margin-bottom: 0em;">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
