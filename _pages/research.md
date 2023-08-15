@@ -18,7 +18,7 @@ We proposed ConvStencil, a novel stencil computing system designed to efficientl
 - Inspired by GEMM-based convolution and im2col, we proposed stencil2row layout transformation which significantly saves memory footprint by over 70%.
 - Proposed dual tessellation algorithm which increases Tensor Core utilization from 12.5% to 87.5%.
 - Proposed ditry bits padding to reduce bank conflicts and branch diverges, improving the performance by 21.4%.
-- **[Submitted to PPoPP]** ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores. Yuetao Chen, Kun Li*, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang.
+- **[Submitted to PPoPP] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores**. <u>Yuetao Chen</u>, Kun Li*, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang.
 
 
 #### **Stencil Computing on Heterogeneous Platform**
@@ -31,8 +31,8 @@ It is the first system for high-performance Stencil on heterogeneous CPU+GPU wit
 - Designed a data exchange method between CPU and GPU for stencil computation which covers the communication latency by computation.
 - Proposed a disruptive vectorization design to relieve data alignment conflicts.
 
-- **[arXiv (submitted to HPCA)] [Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing](https://arxiv.org/pdf/2303.08365.pdf)**. Kun Li, Zhichun Li, Yuetao Chen, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.
-- **[Submitted to PPoPP] Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers**. Yiwei Zhang, Kun Li*, Liang Yuan, Yuetao Chen, Haipeng Jia, Yunquan Zhang, Ting Cao.
+- **[arXiv (submitted to HPCA)] [Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing](https://arxiv.org/pdf/2303.08365.pdf)**. Kun Li, Zhichun Li, <u>Yuetao Chen</u>, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.
+- **[Submitted to PPoPP] Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers**. Yiwei Zhang, Kun Li*, Liang Yuan, <u>Yuetao Chen</u>, Haipeng Jia, Yunquan Zhang, Ting Cao.
 
 #### **Mobile Platform Resource Scheduling**
 Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
@@ -50,7 +50,7 @@ It is called OSML which employs multiple ML models to work collaboratively to pr
 - Divided the DQN model into two parts to prevent incorrect scheduling decisions and ensure the QoS.
 - Designed a resource sharing policy, such as shared cacheline, to optimize resource utilization across co-located services.
 - Tuned PARTIES (ASPLOS '19) and CLITE (HPCA '20) for the evaluation and collected and annotated program resource allocation data.
-- **[FAST 2023] [Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach](https://www.usenix.org/conference/fast23/presentation/liu)**. Lei Liu*, Xinglei Dou, Yuetao Chen.
+- **[FAST 2023] [Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach](https://www.usenix.org/conference/fast23/presentation/liu)**. Lei Liu*, Xinglei Dou, <u>Yuetao Chen</u>.
 
 #### **NVM‑aware thread scheduling approach on NUMA systems**
 Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
