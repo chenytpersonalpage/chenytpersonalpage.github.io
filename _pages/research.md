@@ -11,11 +11,14 @@ nav: true
 
 
 
-#### **Bridging the Gap Between Stencil and Convolution**
+#### **Transform Stencil Computation to Matrix Multiplication on Tensor Cores (Bridging the Gap Between Stencil and Convolution)**
 Advisor: Dr. Kun Li | Microsoft Research Asia
 
-This project analyzed the similarities and differences between stencils and convolutions and optimized them for acceleration on GPUs based on the characteristics of GPU hardware. 
-- Currently, I have developed and proposed a new Tensor core algorithm for stencil computing, based on the img2col approach, that leverages Tensor core processing power for single-channel computations.
+We proposed ConvStencil, a novel stencil computing system designed to efficiently transform stencil computation to matrix multiplication on Tensor Cores. This project analyzed the similarities and differences between stencils and convolutions and optimized them for acceleration on GPUs based on the characteristics of GPU hardware. 
+- Inspired by GEMM-based convolution and im2col, we proposed stencil2row layout transformation which significantly saves memory footprint by over 70%.
+- Proposed dual tessellation algorithm which increases Tensor Core utilization from 12.5% to 87.5%.
+- Proposed ditry bits padding to reduce bank conflicts and branch diverges, improving the performance by 21.4%.
+- **[Submitted to PPoPP]** ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores. Yuetao Chen, Kun Li*, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang.
 
 
 #### **Stencil Computing on Heterogeneous Platform**
@@ -27,7 +30,7 @@ It is the first system for high-performance Stencil on heterogeneous CPU+GPU wit
 - Replicated the tessellate tiling (SC '17) to be coordinated with SIMD algorithm.
 - Designed a data exchange method between CPU and GPU for stencil computation which covers the communication latency by computation.
 
-- **[arXiv (submitted to SOSP)]** [Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing](https://arxiv.org/pdf/2303.08365.pdf). Kun Li, Zhichun Li, Yuetao Chen, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.
+- **[arXiv (submitted to HPCA)]** [Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing](https://arxiv.org/pdf/2303.08365.pdf). Kun Li, Zhichun Li, Yuetao Chen, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.
 
 #### **Mobile Platform Resource Scheduling**
 Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
