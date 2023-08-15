@@ -4,21 +4,21 @@
 @string{aps = {American Physical Society,}}
 
 @article{chen2024convstencil,
-  abbr={Submitted to PPOPP},
+  abbr={Submitted to PPoPP},
   title={ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores},
   author={Chen, Yuetao and Li*, Kun and Wang, Yuhao and Bai, Donglin and Wang, Lei and Ma, Lingxiao and Yuan, Liang and Zhang, Yunquan and Cao, Ting and Yang, Mao},
   abstract={Tensor Core Unit (TCU) is increasingly integrated into modern high-performance processors to enhance matrix multiplication performance. However, constrained to its over-specification, its potential for improving other critical scientific operations like stencil computations remains untapped. This paper presents ConvStencil, a novel stencil computing system designed to efficiently transform stencil computation to matrix multiplication on Tensor Cores. We first develop a performance model for ConvStencil to guide algorithm design and optimization on TCUs. Based on this model, we propose three techniques: (1) Memory-efficient Layout Transformation using the stencil2row method; (2) Computation-dense Compute Adaptation with Dual Tessellation and kernel fusion; and (3) Performance-boosting Conflict Removal using a Lookup Table and Dirty Bits Padding. ConvStencil outperforms other stencil optimization frameworks, achieving significant speedups compared to solutions like AMOS, cuDNN, Brick, DRStencil, and TCStencil. By transforming stencil computation on Tensor Cores, ConvStencil promises to improve the performance of various scientific and engineering applications.},
-  journal={Submitted to PPOPP},
+  journal={Submitted to PPoPP},
   year={2024},
   selected={true}
 }
 
 @article{zhang2024jigsaw,
-  abbr={Submitted to PPOPP},
+  abbr={Submitted to PPoPP},
   title={Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers},
   author={Zhang, Yiwei and Li*, Kun and Yuan, Liang and Chen, Yuetao and Jia, Haipeng and Zhang, Yunquan and Cao, Ting},
   abstract={Ubiquitous in scientific or engineering applications, Stencil computation is identified as one of the most important templates in high performance computing community. Previous studies have extensively investigated vectorization techniques to enhance the in-core parallelism, where the performance is critically constrained to data alignment conflict. Although some work attempts to relieve it by decreasing data loads or shuffles, they failed to find the underlying root cause of this bottleneck. This paper proposes Jigsaw, a conflict-free vectorization technique to use SIMD facilities for Stencil computation efficiently. Leveraging hardware features, Jigsaw first proposes a disruptive vectorization design to relieve data alignment conflicts. It overlaps data-reordering and arithmetic operations carefully by efficient in-lane instructions, which further decreases pipeline bubbles and mitigates in-register data movements. Moreover, spatial dimension reduction and temporal fusion strategies are proposed to effectively alleviate register spilling and reduce data transfer volume between cache and registers. Experimental results on different machines demonstrate that Jigsaw could achieve a significant improvement compared to the state-of-the-art techniques, with an average speedup of 2.31x on various stencil kernels.},
-  journal={Submitted to PPOPP},
+  journal={Submitted to PPoPP},
   year={2024},
   selected={true}
 }
