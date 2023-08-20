@@ -41,7 +41,7 @@ It is called MobiRL, a reinforcement learning-based resource scheduler for mobil
 
 - Implemented a resource scheduling framework for Android devices using the Deep Deterministic Policy Gradient (DDPG) model to optimize performance.
 - Designed a piecewise reward function that optimizes energy consumption while limiting frame loss rate, ensuring both efficient use of resources and a high-quality user experience.
-- Evaluated by the [OPPO](https://www.oppo.com/) development team, our MobiRL outperforms current scheduler by reducing 38.1% frame loss rate and 3.1% power comsumption.
+- Evaluated by the [OPPO](https://www.oppo.com/) development team, our MobiRL outperforms the current scheduler by reducing 38.1% frame loss rate and 3.1% power consumption.
 - **[Submitted to HPCA] An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness and Power**.
 
 #### **4. Intelligent Resource Scheduling for Co-located Services**
