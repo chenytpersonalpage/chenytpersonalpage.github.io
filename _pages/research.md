@@ -12,7 +12,7 @@ nav: true
 
 
 #### **1. Transform Stencil Computation to Matrix Multiplication on Tensor Cores (Bridging the Gap Between Stencil and Convolution)**
-Advisor: Dr. Kun Li | Microsoft Research Asia
+Advisor: Dr. Kun Li | Microsoft Research Asia | 
 
 We proposed ConvStencil, a novel stencil computing system designed to efficiently transform stencil computation to matrix multiplication on Tensor Cores. This project analyzed the similarities and differences between stencils and convolutions and optimized them for acceleration on GPUs based on the characteristics of GPU hardware. 
 - Inspired by GEMM-based convolution and im2col, we proposed stencil2row layout transformation which significantly saves memory footprint by over 70%.
@@ -20,8 +20,17 @@ We proposed ConvStencil, a novel stencil computing system designed to efficientl
 - Proposed ditry bits padding to reduce bank conflicts and branch diverges, improving the performance by 21.4%.
 - **[Submitted to PPoPP] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores**. <u>Yuetao Chen</u>, Kun Li*, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang.
 
+#### **2. Mobile Platform Resource Scheduling for Optimizing UI Smoothness and Power**
+Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
 
-#### **2. Stencil Computing on Heterogeneous Platform**
+It is called MobiRL, a reinforcement learning-based resource scheduler for mobile systems.  It uses a DDPG model to dynamically adjust the upper and lower frequency limits of the CPU's different clusters and the GPU on mobile devices, in order to achieve the effect of simultaneously reducing frame loss rate and power consumption.
+
+- Implemented a resource scheduling framework for Android devices using the Deep Deterministic Policy Gradient (DDPG) model to optimize performance.
+- Designed a piecewise reward function that optimizes energy consumption while limiting frame loss rate, ensuring both efficient use of resources and a high-quality user experience.
+- Evaluated by the [OPPO](https://www.oppo.com/) development team, our MobiRL outperforms the current scheduler by reducing 38.1% frame loss rate and 3.1% power consumption.
+- **[Submitted to HPCA] An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness and Power**.
+
+#### **3. Stencil Computing on Heterogeneous Platform**
 Advisor: Dr. Kun Li | Microsoft Research Asia
 
 It is the first system for high-performance Stencil on heterogeneous CPU+GPU with novel optimizations on both CPU and GPU. It leverages Pattern Mapping by Register-level Tetrominoes to efficiently utilize SIMD on CPUs and Tensor Cores on GPUs. It also leverages locality by cache/SMEM-level tetrominoes and implement CPU and GPU Collaboration.
@@ -33,16 +42,6 @@ It is the first system for high-performance Stencil on heterogeneous CPU+GPU wit
 
 - **[arXiv (submitted to HPCA)] [Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing](https://arxiv.org/pdf/2303.08365.pdf)**. Kun Li, Zhichun Li, <u>Yuetao Chen</u>, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.
 - **[Submitted to PPoPP] Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers**. Yiwei Zhang, Kun Li*, Liang Yuan, <u>Yuetao Chen</u>, Haipeng Jia, Yunquan Zhang, Ting Cao.
-
-#### **3. Mobile Platform Resource Scheduling**
-Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
-
-It is called MobiRL, a reinforcement learning-based resource scheduler for mobile systems.  It uses a DDPG model to dynamically adjust the upper and lower frequency limits of the CPU's different clusters and the GPU on mobile devices, in order to achieve the effect of simultaneously reducing frame loss rate and power consumption.
-
-- Implemented a resource scheduling framework for Android devices using the Deep Deterministic Policy Gradient (DDPG) model to optimize performance.
-- Designed a piecewise reward function that optimizes energy consumption while limiting frame loss rate, ensuring both efficient use of resources and a high-quality user experience.
-- Evaluated by the [OPPO](https://www.oppo.com/) development team, our MobiRL outperforms the current scheduler by reducing 38.1% frame loss rate and 3.1% power consumption.
-- **[Submitted to HPCA] An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness and Power**.
 
 #### **4. Intelligent Resource Scheduling for Co-located Services**
 Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
