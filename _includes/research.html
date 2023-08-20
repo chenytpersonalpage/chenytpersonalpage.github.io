@@ -1,6 +1,6 @@
 <h4 id="research"><strong><font color="FA7F6F">Research</font></strong></h4>
 
-<h6 id="transformstencilcomputationtomatrixmultiplicationontensorcoresbridgingthegapbetweenstencilandconvolution"><strong>Transform Stencil Computation to Matrix Multiplication on Tensor Cores (Bridging the Gap Between Stencil and Convolution)</strong></h6>
+<h6 id="1transformstencilcomputationtomatrixmultiplicationontensorcoresbridgingthegapbetweenstencilandconvolution"><strong>1. Transform Stencil Computation to Matrix Multiplication on Tensor Cores (Bridging the Gap Between Stencil and Convolution)</strong></h6>
 <p>Advisor: Dr. Kun Li | Microsoft Research Asia</p>
 <p>We proposed ConvStencil, a novel stencil computing system designed to efficiently transform stencil computation to matrix multiplication on Tensor Cores. This project analyzed the similarities and differences between stencils and convolutions and optimized them for acceleration on GPUs based on the characteristics of GPU hardware. </p>
 <ul>
@@ -9,7 +9,7 @@
 <li>Proposed ditry bits padding to reduce bank conflicts and branch diverges, improving the performance by 21.4%.</li>
 <li><strong>[Submitted to PPoPP] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores</strong>. <u>Yuetao Chen</u>, Kun Li*, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang.</li>
 </ul>
-<h6 id="stencilcomputingonheterogeneousplatform"><strong>Stencil Computing on Heterogeneous Platform</strong></h6>
+<h6 id="2stencilcomputingonheterogeneousplatform"><strong>2. Stencil Computing on Heterogeneous Platform</strong></h6>
 <p>Advisor: Dr. Kun Li | Microsoft Research Asia</p>
 <p>It is the first system for high-performance Stencil on heterogeneous CPU+GPU with novel optimizations on both CPU and GPU. It leverages Pattern Mapping by Register-level Tetrominoes to efficiently utilize SIMD on CPUs and Tensor Cores on GPUs. It also leverages locality by cache/SMEM-level tetrominoes and implement CPU and GPU Collaboration.</p>
 <ul>
@@ -20,14 +20,16 @@
 <li><p><strong>[arXiv (submitted to HPCA)] <a href="https://arxiv.org/pdf/2303.08365.pdf">Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing</a></strong>. Kun Li, Zhichun Li, <u>Yuetao Chen</u>, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.</p></li>
 <li><p><strong>[Submitted to PPoPP] Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers</strong>. Yiwei Zhang, Kun Li*, Liang Yuan, <u>Yuetao Chen</u>, Haipeng Jia, Yunquan Zhang, Ting Cao.</p></li>
 </ul>
-<h6 id="mobileplatformresourcescheduling"><strong>Mobile Platform Resource Scheduling</strong></h6>
+<h6 id="3mobileplatformresourcescheduling"><strong>3. Mobile Platform Resource Scheduling</strong></h6>
 <p>Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences</p>
 <p>It is called MobiRL, a reinforcement learning-based resource scheduler for mobile systems.  It uses a DDPG model to dynamically adjust the upper and lower frequency limits of the CPU's different clusters and the GPU on mobile devices, in order to achieve the effect of simultaneously reducing frame loss rate and power consumption.</p>
 <ul>
 <li>Implemented a resource scheduling framework for Android devices using the Deep Deterministic Policy Gradient (DDPG) model to optimize performance.</li>
 <li>Designed a piecewise reward function that optimizes energy consumption while limiting frame loss rate, ensuring both efficient use of resources and a high-quality user experience.</li>
+<li>Evaluated by the <a href="https://www.oppo.com/">OPPO</a> development team, our MobiRL outperforms current scheduler by reducing 38.1% frame loss rate and 3.1% power comsumption.</li>
+<li><strong>[Submitted to HPCA] An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness and Power</strong>.</li>
 </ul>
-<h6 id="intelligentresourceschedulingforcolocatedservices"><strong>Intelligent Resource Scheduling for Co-located Services</strong></h6>
+<h6 id="4intelligentresourceschedulingforcolocatedservices"><strong>4. Intelligent Resource Scheduling for Co-located Services</strong></h6>
 <p>Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences</p>
 <p>It is called OSML which employs multiple ML models to work collaboratively to predict QoS variations, shepherd the scheduling, and recover from QoS violations in complicated co-location services. Experimental results show that OSML supports higher loads and meets QoS targets with lower scheduling overheads and shorter convergence time than previous studies.</p>
 <ul>
@@ -36,7 +38,7 @@
 <li>Tuned PARTIES (ASPLOS '19) and CLITE (HPCA '20) for the evaluation and collected and annotated program resource allocation data.</li>
 <li><strong>[FAST 2023] <a href="https://www.usenix.org/conference/fast23/presentation/liu">Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach</a></strong>. Lei Liu*, Xinglei Dou, <u>Yuetao Chen</u>.</li>
 </ul>
-<h6 id="nvmawarethreadschedulingapproachonnumasystems"><strong>NVM‑aware thread scheduling approach on NUMA systems</strong></h6>
+<h6 id="5nvmawarethreadschedulingapproachonnumasystems"><strong>5. NVM‑aware thread scheduling approach on NUMA systems</strong></h6>
 <p>Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences</p>
 <p>It is an NVM-aware thread scheduling approach for NUMA systems with hybrid memory, utilizing the LinUCB algorithm to guide scheduling decisions and reduce program execution time by up to 59.9\%.</p>
 <ul>
@@ -44,7 +46,7 @@
 <li>Carefully selected appropriate features and used LinUCB to guide thread scheduling, resulting in improved performance.</li>
 <li><strong>[CCF THPC] <a href="https://link.springer.com/article/10.1007/s42514-022-00110-2">Smart Scheduler: an Adaptive NVM-Aware Thread Scheduling Approach on NUMA Systems</a></strong>. <u>Yuetao Chen</u>, Keni Qiu, Li Chen, Haipeng Jia, Yunquan Zhang, Limin Xiao, Lei Liu*.</li>
 </ul>
-<h6 id="fastfouriertransformslibrary"><strong>Fast Fourier Transforms Library</strong></h6>
+<h6 id="6fastfouriertransformslibrary"><strong>6. Fast Fourier Transforms Library</strong></h6>
 <p>Advisor: Prof. Haipeng Jia | Institute of Computing Technology, Chinese Academy of Sciences</p>
 <ul>
 <li>Discovered the changing pattern of FFT algorithm with base 2.</li>
