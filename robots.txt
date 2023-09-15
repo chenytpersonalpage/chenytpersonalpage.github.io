@@ -1,6 +1,9 @@
 ---
 permalink: /robots.txt
 ---
+User-agent: Bingbot
+Disallow:  /
+
 User-agent: *
 Disallow:
 
