@@ -13,6 +13,16 @@
   selected={true}
 }
 
+@inproceedings{liu2023intelligent,
+  abbr={Submitted to HPCA},
+  title={An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness
+and Power},
+  author={Liu*, Lei and Dou, Xinglei and Chen, Yuetao},
+  journal={Submitted to HPCA},
+  year={2024},
+  selected={true}
+}
+
 @article{zhang2024jigsaw,
   abbr={Submitted to PPoPP},
   title={Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers},
@@ -24,11 +34,11 @@
 }
 
 @article{li2023gamify,
-  abbr={arXiv(old version)(submitted to HPCA)},
+  abbr={arXiv(old version)(submitted to PPoPP)},
   title={Tetris: Exploiting More Parallelisms for Stencil Computation on Heterogeneous Architecture via Tetrominoes Tessellation},
   author={Li, Kun and Li, Zhichun and Chen, Yuetao and Wang, Zixuan and Zhang, Yiwei and Yuan, Liang and Jia, Haipeng and Zhang, Yunquan and Cao*, Ting and Yang, Mao},
   abstract={Stencil computation is a critical kernel in various scientific computing domains. However, due to the diverse computational patterns and the varying hardware architectures, existing research still primarily focuses on individual architectures or specific techniques with limited parallelisms, far from exploiting the potentials of modern mainstream heterogeneous hardware. This paper proposes a highly adaptable stencil computing technique, Tetris, designed to exploit the full potential of parallelism at all levels on CPU and GPU heterogeneous architecture. Tetris introduces a novel abstraction called Tetrominos, which can be flexibly tailored to accommodate various memory hierarchies and computing units. Tetris comprises three main components: a conflict-free Pattern Mapper, a shape-polymorphic Tile Generator, and a resource-sharing Concurrent Scheduler. Pattern Mapper facilitates efficient pattern mapping from stencil computation to vectorization and tensorization. Tile Generator generates tiles with polymorphic tetrominoes across memory hierarchies to enhance concurrent execution and promote data locality. Concurrent Scheduler orchestrates the execution of tetrominoes for high exploitation of memory, compute, and bandwidth resources on CPU+GPU heterogeneous systems. Experimental results demonstrate that Tetris significantly improves performance by an average of 4.4x and a maximum of 8.1x compared to state-of-the-art techniques.},
-  journal={arXiv preprint (submitted to HPCA 2024)},
+  journal={arXiv preprint (submitted to PPoPP 2024)},
   year={2024},
   url={https://arxiv.org/abs/2303.08365},
   html={https://arxiv.org/abs/2303.08365},
@@ -40,7 +50,7 @@
   abbr={FAST 23},
   title={Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach},
   author={Liu*, Lei and Dou, Xinglei and Chen, Yuetao},
-  abstract={Latency-critical services have been widely deployed in cloud environments. For cost-efficiency, multiple services are usually co-located on a server. Thus, run-time resource scheduling becomes the pivot for QoS control in these complicated co-location cases. However, the scheduling exploration space enlarges rapidly with the increasing server resources, making the schedulers hardly provide ideal solutions quickly. More importantly, we observe that there are “resource cliffs” in the scheduling exploration space. They affect the exploration efficiency and always lead to severe QoS fluctuations in previous schedulers. To address these problems, we propose a novel ML-based intelligent scheduler – OSML. It learns the correlation between architectural hints (e.g., IPC, cache misses, memory footprint, etc.), scheduling solutions and the QoS demands based on a data set we collected from 11 widely deployed services running on off-the-shelf servers. OSML employs multiple ML models to work collaboratively to predict QoS variations, shepherd the scheduling, and recover from QoS violations in complicated co-location cases. OSML can intelligently avoid resource cliffs during scheduling and reach an optimal solution much faster than previous approaches for co-located LC services. Experimental results show that OSML supports higher loads and meets QoS targets with lower scheduling overheads and shorter convergence time than previous studies.},
+  abstract={Latency-critical services have been widely deployed in cloud environments. For cost-efficiency, multiple services are usually co-located on a server. Thus, run-time resource scheduling becomes the pivot for QoS control in these complicated co-location cases. However, the scheduling exploration space enlarges rapidly with the increasing server resources, making the schedulers hardly provide ideal solutions quickly. More importantly, we observe that there are “resource cliffs” in the scheduling exploration space. They affect the exploration efficiency and always lead to severe QoS fluctuations in previous schedulers. To address these problems, we propose a novel ML-based intelligent scheduler - OSML. It learns the correlation between architectural hints (e.g., IPC, cache misses, memory footprint, etc.), scheduling solutions and the QoS demands based on a data set we collected from 11 widely deployed services running on off-the-shelf servers. OSML employs multiple ML models to work collaboratively to predict QoS variations, shepherd the scheduling, and recover from QoS violations in complicated co-location cases. OSML can intelligently avoid resource cliffs during scheduling and reach an optimal solution much faster than previous approaches for co-located LC services. Experimental results show that OSML supports higher loads and meets QoS targets with lower scheduling overheads and shorter convergence time than previous studies.},
   booktitle={21st USENIX Conference on File and Storage Technologies (FAST 23)},
   pages={153--166},
   year={2023},
@@ -54,7 +64,7 @@
   abbr={CCF THPC},
   title={Smart scheduler: an adaptive NVM-aware thread scheduling approach on NUMA systems},
   author={Chen, Yuetao and Qiu, Keni and Chen, Li and Jia, Haipeng and Zhang, Yunquan and Xiao, Limin and Liu*, Lei},
-  abstract={NVM provides large memory capacity, long-term data durability, and high memory bandwidth for multi-thread applications on cloud servers. Nowadays, cloud servers often employ NUMA architecture, where the thread scheduling mechanism plays a vital role in overall system performance because of the NUMA property. However, with the increase in server resources’ diversity, i.e., hybrid memory systems using DRAM and NVM on NUMA nodes, the exploration space for thread scheduling is expanding rapidly. Unfortunately, the existing thread schedulers, including rule-based algorithms and scheduling domain methods, cannot provide ideal scheduling solutions in such complicated cases. And, those thread schedulers neglect customized heterogeneous memory structures, thus degrading overall system performance. Fortunately, reinforcement learning can choose actions with maximum rewards values in a specific environment, leading the scheduler towards an optimal solution. In this paper, we propose a thread scheduling approach, i.e., Smart Scheduler, by leveraging a reinforcement learning method. Smart Scheduler takes OS event information as input, extends LinUCB to explore the scheduling space, and guides thread-level scheduling. We evaluate Smart Scheduler on the off-the-shelf server equipped with NVM. The experimental results show that the proposed Smart Scheduler can converge faster (usually within 20 actions) than rule-based algorithms and scheduling domain methods and reduce program execution time by up to 59.9%. It also outperforms rule-based algorithms and scheduling domain methods by 4.1% and 19.1% in quality of service latency.},
+  abstract={NVM provides large memory capacity, long-term data durability, and high memory bandwidth for multi-thread applications on cloud servers. Nowadays, cloud servers often employ NUMA architecture, where the thread scheduling mechanism plays a vital role in overall system performance because of the NUMA property. However, with the increase in server resources' diversity, i.e., hybrid memory systems using DRAM and NVM on NUMA nodes, the exploration space for thread scheduling is expanding rapidly. Unfortunately, the existing thread schedulers, including rule-based algorithms and scheduling domain methods, cannot provide ideal scheduling solutions in such complicated cases. And, those thread schedulers neglect customized heterogeneous memory structures, thus degrading overall system performance. Fortunately, reinforcement learning can choose actions with maximum rewards values in a specific environment, leading the scheduler towards an optimal solution. In this paper, we propose a thread scheduling approach, i.e., Smart Scheduler, by leveraging a reinforcement learning method. Smart Scheduler takes OS event information as input, extends LinUCB to explore the scheduling space, and guides thread-level scheduling. We evaluate Smart Scheduler on the off-the-shelf server equipped with NVM. The experimental results show that the proposed Smart Scheduler can converge faster (usually within 20 actions) than rule-based algorithms and scheduling domain methods and reduce program execution time by up to 59.9%. It also outperforms rule-based algorithms and scheduling domain methods by 4.1% and 19.1% in quality of service latency.},
   journal={CCF Transactions on High Performance Computing},
   pages={1--13},
   year={2022},
