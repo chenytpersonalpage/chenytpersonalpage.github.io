@@ -3,13 +3,13 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{chen2024convstencil,
-  abbr={PPoPP'24},
+@inproceedings{chen2024convstencil,
+  abbr={PPoPP 24},
   title={ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores},
   author={Chen, Yuetao and Li*, Kun and Wang, Yuhao and Bai, Donglin and Wang, Lei and Ma, Lingxiao and Yuan, Liang and Zhang, Yunquan and Cao, Ting and Yang, Mao},
   abstract={Tensor Core Unit (TCU) is increasingly integrated into modern high-performance processors to enhance matrix multiplication performance. However, constrained to its over-specification, its potential for improving other critical scientific operations like stencil computations remains untapped. This paper presents ConvStencil, a novel stencil computing system designed to efficiently transform stencil computation to matrix multiplication on Tensor Cores. We first develop a performance model for ConvStencil to guide algorithm design and optimization on TCUs. Based on this model, we propose three techniques: (1) Memory-efficient Layout Transformation using the stencil2row method; (2) Computation-dense Compute Adaptation with Dual Tessellation and kernel fusion; and (3) Performance-boosting Conflict Removal using a Lookup Table and Dirty Bits Padding. ConvStencil outperforms other stencil optimization frameworks, achieving significant speedups compared to solutions like AMOS, cuDNN, Brick, DRStencil, and TCStencil. By transforming stencil computation on Tensor Cores, ConvStencil promises to improve the performance of various scientific and engineering applications.},
-  booktitle={29th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP'24)},
-  year={2024},
+  booktitle={29th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP'24) (To appear)},
+  //year={2024},
   selected={true}
 }
 
@@ -53,7 +53,7 @@ and Power},
   abstract={Latency-critical services have been widely deployed in cloud environments. For cost-efficiency, multiple services are usually co-located on a server. Thus, run-time resource scheduling becomes the pivot for QoS control in these complicated co-location cases. However, the scheduling exploration space enlarges rapidly with the increasing server resources, making the schedulers hardly provide ideal solutions quickly. More importantly, we observe that there are “resource cliffs” in the scheduling exploration space. They affect the exploration efficiency and always lead to severe QoS fluctuations in previous schedulers. To address these problems, we propose a novel ML-based intelligent scheduler - OSML. It learns the correlation between architectural hints (e.g., IPC, cache misses, memory footprint, etc.), scheduling solutions and the QoS demands based on a data set we collected from 11 widely deployed services running on off-the-shelf servers. OSML employs multiple ML models to work collaboratively to predict QoS variations, shepherd the scheduling, and recover from QoS violations in complicated co-location cases. OSML can intelligently avoid resource cliffs during scheduling and reach an optimal solution much faster than previous approaches for co-located LC services. Experimental results show that OSML supports higher loads and meets QoS targets with lower scheduling overheads and shorter convergence time than previous studies.},
   booktitle={21st USENIX Conference on File and Storage Technologies (FAST'23)},
   pages={153--166},
-  year={2023},
+  //year={2023},
   url={https://www.usenix.org/conference/fast23/presentation/liu},
   html={https://www.usenix.org/conference/fast23/presentation/liu},
   pdf={fast23.pdf},
