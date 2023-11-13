@@ -18,7 +18,7 @@ We proposed ConvStencil, a novel stencil computing system designed to efficientl
 - Inspired by GEMM-based convolution and im2col, we proposed stencil2row layout transformation which significantly saves memory footprint by over 70%.
 - Proposed dual tessellation algorithm which increases Tensor Core utilization from 12.5% to 87.5%.
 - Proposed ditry bits padding to reduce bank conflicts and branch diverges, improving the performance by 21.4%.
-- **[Submitted to PPoPP] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores**. <u>Yuetao Chen</u>, Kun Li*, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang.
+- **[PPoPP 2024] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores**. <u>Yuetao Chen</u>, Kun Li*, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang.
 
 #### **2. Mobile Platform Resource Scheduling for Optimizing UI Smoothness and Power**
 Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
@@ -28,7 +28,7 @@ It is called MobiRL, a reinforcement learning-based resource scheduler for mobil
 - Implemented a resource scheduling framework for Android devices using the Deep Deterministic Policy Gradient (DDPG) model to optimize performance.
 - Designed a piecewise reward function that optimizes energy consumption while limiting frame loss rate, ensuring both efficient use of resources and a high-quality user experience.
 - Evaluated by the [OPPO](https://www.oppo.com/) development team, our MobiRL outperforms the current scheduler by reducing 38.1% frame loss rate and 3.1% power consumption.
-- **[Submitted to HPCA] An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness and Power**.
+- **[Working Paper] An Intelligent Scheduling Approach on Mobile OS for Optimizing UI Smoothness and Power**.
 
 #### **3. Stencil Computing on Heterogeneous Platform**
 Advisor: Dr. Kun Li | Microsoft Research Asia
@@ -41,7 +41,7 @@ It is the first system for high-performance Stencil on heterogeneous CPU+GPU wit
 - Proposed a disruptive vectorization design to relieve data alignment conflicts.
 
 - **[arXiv (submitted to HPCA)] [Gamify Stencil Dwarf on Cloud for Democratizing Scientific Computing](https://arxiv.org/pdf/2303.08365.pdf)**. Kun Li, Zhichun Li, <u>Yuetao Chen</u>, Zixuan Wang, Yiwei Zhang, Liang Yuan, Haipeng Jia, Yunquan Zhang, Ting Cao*, Mao Yang.
-- **[Submitted to PPoPP] Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers**. Yiwei Zhang, Kun Li*, Liang Yuan, <u>Yuetao Chen</u>, Haipeng Jia, Yunquan Zhang, Ting Cao.
+- **[Working Paper] Jigsaw: Toward Conflict-free Vectorized Stencil Computation by Tessellating Swizzled Registers**. Yiwei Zhang, Kun Li*, Liang Yuan, <u>Yuetao Chen</u>, Haipeng Jia, Yunquan Zhang, Ting Cao.
 
 #### **4. Intelligent Resource Scheduling for Co-located Services**
 Advisor: Prof. Lei Liu | Institute of Computing Technology, Chinese Academy of Sciences
