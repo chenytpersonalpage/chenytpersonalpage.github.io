@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<b>PhD Student, The Chinese University of Hong Kong</b><br>
+<b>Master Student, Institute of Computing Technology, Chinese Academy of Sciences</b><br>
 No.6 Kexueyuan South Road, Zhongguancun, Haidian District, Beijing, China<br>
 <b>chenyuetao21s [at] ict.ac.cn</b><br>
 [Wechat](https://www.chenyuetao.tech/assets/img/qr.png) || [CV](https://www.chenyuetao.tech/assets/files/cv.pdf) 
