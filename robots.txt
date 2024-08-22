@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://chenyuetao.tech/al-folio/sitemap.xml
+Sitemap: https://chenyuetao.tech/sitemap.xml
