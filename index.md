@@ -14,8 +14,8 @@ I am a Ph.D. student at The Chinese University of Hong Kong, supervised by Prof.
 ## Education
 
 - **2024 - Present:** Ph.D. student at The Chinese University of Hong Kong.
-- **2020 - 2023:** Master student at Institute of Computing Technology, Chinese Academy of Sciences.
-- **2018 - 2020:** Bachelor student at Beijing Jiaotong University.
+- **2021 - 2024:** Master student at Institute of Computing Technology, Chinese Academy of Sciences.
+- **2017 - 2021:** Bachelor student at Beijing Jiaotong University.
 
 <!-- ## News
 
