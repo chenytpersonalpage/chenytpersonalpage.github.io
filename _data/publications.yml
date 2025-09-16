@@ -1,0 +1,29 @@
+main:
+
+  - title: "DSV: Exploiting Dynamic Sparsity to Accelerate Large-Scale Video DiT Training"
+    authors: Xin Tan, <strong>Yuetao Chen</strong>, Yimin Jiang, Xing Chen, Kun Yan, Nan Duan, Yibo Zhu, Daxin Jiang, Hong Xu
+    conference_short: ASPLOS
+    conference: International Conference on Architectural Support for Programming Languages and Operating Systems <strong>(ASPLOS)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2502.07590
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # image: ./assets/img/teaser_example_2.png
+    notes: <strong>(Artifact Available, Functional, Reproduced)</strong>
+
+  - title: "ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores"
+    authors: <strong>Yuetao Chen</strong>, Kun Li, Yuhao Wang, Donglin Bai, Lei Wang, Lingxiao Ma, Liang Yuan, Yunquan Zhang, Ting Cao, Mao Yang
+    conference_short: PPoPP
+    conference: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming <strong>(PPoPP)</strong>, 2024.
+    pdf: https://dl.acm.org/doi/10.1145/3627535.3638476
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Best Paper Award <strong>(Artifact Available, Functional, Reproduced)</strong>
+    # image: ./assets/img/teaser_example.png
+
+  - title: "Intelligent Resource Scheduling for Co-located Latency-critical Services: A Multi-Model Collaborative Learning Approach"
+    authors: Lei Liu, Xinglei Dou, <strong>Yuetao Chen</strong>
+    conference_short: FAST
+    conference: USENIX Conference on File and Storage Technologies <strong>(FAST)</strong>, 2023.
+    pdf: https://www.usenix.org/system/files/fast23-liu.pdf
+    
