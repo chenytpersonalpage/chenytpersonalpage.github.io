@@ -1,0 +1,21 @@
+# Build output
+_site/
+
+# Jekyll cache
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+vendor/bundle/
+.bundle/
+
+# Node
+node_modules/
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
