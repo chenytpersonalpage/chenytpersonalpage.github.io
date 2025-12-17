@@ -1,5 +1,69 @@
 /* 自定义样式 - 覆盖远程主题 */
 
+/* 全局字体大小调整 */
+html {
+  font-size: 17px !important;  /* 基础字体从默认的16px增加到17px */
+}
+
+body {
+  font-size: 1.05em !important;  /* 正文字体增大5% */
+  line-height: 1.7 !important;  /* 增加行高，提高可读性 */
+}
+
+/* 标题字体大小调整 */
+h1 {
+  font-size: 2em !important;
+}
+
+h2 {
+  font-size: 1.6em !important;
+}
+
+h3 {
+  font-size: 1.35em !important;
+}
+
+h4 {
+  font-size: 1.2em !important;
+}
+
+h5, h6 {
+  font-size: 1.1em !important;
+}
+
+/* 段落和列表字体 */
+p, li, td, th {
+  font-size: 1.02em !important;
+}
+
+/* 增加两列的宽度 */
+.wrapper {
+  width: 1200px !important;  /* 从默认的960px增加到1200px */
+}
+
+header {
+  width: 280px !important;  /* 左侧栏从232px增加到280px */
+}
+
+section {
+  width: 850px !important;  /* 右侧主内容区从650px增加到850px */
+}
+
+/* 响应式设计 - 宽屏优化 */
+@media print, screen and (min-width: 961px) {
+  .wrapper {
+    width: 1200px !important;
+  }
+  
+  header {
+    width: 280px !important;
+  }
+  
+  section {
+    width: 850px !important;
+  }
+}
+
 /* 头像圆角设置 */
 .image.avatar {
   border-radius: 30px !important;
