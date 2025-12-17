@@ -1,0 +1,31 @@
+/* 自定义样式 - 覆盖远程主题 */
+
+/* 头像圆角设置 */
+.image.avatar {
+  border-radius: 30px !important;
+}
+
+.image.avatar img {
+  border-radius: 30px !important;
+  width: 45%;
+  padding: 20px;
+}
+
+/* 响应式设计 - 平板尺寸 */
+@media print, screen and (max-width: 960px) {
+  .image.avatar img {
+    border-radius: 30px !important;
+    width: 117px;
+    padding: 20px;
+  }
+}
+
+/* 响应式设计 - 手机尺寸 */
+@media print, screen and (max-width: 480px) {
+  .image.avatar img {
+    border-radius: 30px !important;
+    width: 95px;
+    padding: 20px;
+  }
+}
+
