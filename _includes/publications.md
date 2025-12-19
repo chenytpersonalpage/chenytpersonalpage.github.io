@@ -1,9 +1,10 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications</h2>
+<!-- <h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications</h2> -->
+## Selected Publications
 
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.publications.published %}
 
 <li>
 <div class="pub-row">
@@ -16,7 +17,7 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;"> -->
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 15px; margin-bottom: -10px; margin-top: -10px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
@@ -50,3 +51,52 @@
 
 </ol>
 </div>
+{% if site.data.publications.preprints.size > 0 %}
+<!-- <h2 id="preprints" style="margin: 2px 0px -15px;">Preprints</h2> -->
+## Preprints & Under Review
+
+<div class="publications">
+<ol class="bibliography">
+
+{% for link in site.data.publications.preprints %}
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 15px; margin-bottom: -10px; margin-top: -10px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.preprint %} 
+      <a href="{{ link.preprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Preprint</a>
+      {% endif %}
+      {% if link.page %} 
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      {% endif %}
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      {% endif %}
+      {% if link.notes %} 
+      <strong style="color:#e74d3c">{{ link.notes }}</strong>
+      {% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+<br>
+
+{% endfor %}
+
+</ol>
+</div>
+{% endif %}
