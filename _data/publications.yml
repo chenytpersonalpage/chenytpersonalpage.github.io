@@ -44,5 +44,5 @@ preprints:
 
   - title: "Echo: Simulating Distributed Training At Scale"
     authors: Yicheng Feng, <strong>Yuetao Chen</strong>, Kaiwen Chen, Jingzong Li, Tianyuan Wu, Peng Cheng, Chuan Wu, Wei Wang, Tsung-Yi Ho, Hong Xu,.
-    conference: arXiv preprint arXiv:2412.12487
+    conference: arXiv:2412.12487
     pdf: https://arxiv.org/abs/2412.12487
