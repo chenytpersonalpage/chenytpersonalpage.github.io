@@ -5,7 +5,7 @@ main:
     conference_short: ASPLOS
     conference: ACM International Conference on Architectural Support for Programming Languages and Operating Systems <strong>(ASPLOS)</strong>, 2025.
     pdf: https://dl.acm.org/doi/10.1145/3760250.3762216
-    # code: https://github.com/MrGiovanni/ContinualLearning
+    code: https://github.com/NetX-lab/DSV/tree/ae
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     # image: ./assets/img/teaser_example_2.png
     notes: #<strong>(Artifact Available, Functional, Reproduced)</strong>
@@ -15,7 +15,7 @@ main:
     conference_short: PPoPP
     conference: ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming <strong>(PPoPP)</strong>, 2024.
     pdf: https://dl.acm.org/doi/10.1145/3627535.3638476
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    code: https://github.com/microsoft/ConvStencil
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Best Paper Award #<strong>(Artifact Available, Functional, Reproduced)</strong>
@@ -26,4 +26,5 @@ main:
     conference_short: FAST
     conference: USENIX Conference on File and Storage Technologies <strong>(FAST)</strong>, 2023.
     pdf: https://www.usenix.org/system/files/fast23-liu.pdf
+    code: https://github.com/Sys-Inventor-Lab/AI4System-OSML
     
