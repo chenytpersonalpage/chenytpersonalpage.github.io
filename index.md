@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I am a second year Ph.D. student at The Chinese University of Hong Kong, supervised by Prof. [Henry Xu](https://henryhxu.github.io/). Before that, I have interned at [Microsoft Research (Asia)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), where I explored building the bridge between AI hardware and scientific computing.
+Hi, I am a second year Ph.D. student at The Chinese University of Hong Kong, supervised by Prof. [Henry Xu](https://henryhxu.github.io/). Before that, I have interned at [Microsoft Research (Asia)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), where I explored building the bridge between AI hardware and scientific computing. I received **Best Paper Award** at [PPoPP 2024](https://ppopp24.sigplan.org/program/program-PPoPP-2024/).
 
 ## Research Interests
 
