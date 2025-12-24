@@ -77,6 +77,28 @@ section {
 
 /* 响应式设计 - 平板尺寸 */
 @media print, screen and (max-width: 960px) {
+  /* 字体适当回落，避免移动端过大 */
+  html {
+    font-size: 16px !important;
+  }
+
+  body {
+    font-size: 1em !important;
+    line-height: 1.6 !important;
+  }
+
+  /* 容器与双栏在小屏改为单列，占满宽度 */
+  .wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 1.25rem;
+  }
+
+  header,
+  section {
+    width: 100% !important;
+  }
+
   .image.avatar img {
     border-radius: 30px !important;
     width: 117px;
@@ -86,6 +108,18 @@ section {
 
 /* 响应式设计 - 手机尺寸 */
 @media print, screen and (max-width: 480px) {
+  html {
+    font-size: 15px !important;
+  }
+
+  body {
+    font-size: 0.98em !important;
+  }
+
+  .wrapper {
+    padding: 0 1rem;
+  }
+
   .image.avatar img {
     border-radius: 30px !important;
     width: 95px;
