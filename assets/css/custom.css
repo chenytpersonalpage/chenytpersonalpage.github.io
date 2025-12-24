@@ -80,11 +80,13 @@ section {
   /* 字体适当回落，避免移动端过大 */
   html {
     font-size: 16px !important;
+    overflow-x: hidden;
   }
 
   body {
     font-size: 1em !important;
     line-height: 1.6 !important;
+    overflow-x: hidden;
   }
 
   /* 容器与双栏在小屏改为单列，占满宽度 */
@@ -97,6 +99,17 @@ section {
   header,
   section {
     width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* 避免图片、代码块等撑破视口 */
+  img, video, iframe, table, pre, code, blockquote {
+    max-width: 100% !important;
+  }
+
+  pre, code {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
   }
 
   .image.avatar img {
@@ -110,10 +123,12 @@ section {
 @media print, screen and (max-width: 480px) {
   html {
     font-size: 15px !important;
+    overflow-x: hidden;
   }
 
   body {
     font-size: 0.98em !important;
+    overflow-x: hidden;
   }
 
   .wrapper {
