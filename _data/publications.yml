@@ -34,13 +34,14 @@ preprints:
   # 示例：添加preprint论文时使用以下格式
   - title: "Make Every Draft Count: Hidden State based Speculative Decoding"
     authors: <strong>Yuetao Chen</strong>, Xuliang Wang, Xinzhou Zheng, Ming Li, Peng Wang, Hong Xu
-    # conference: arXiv preprint arXiv:2024.xxxxxa
+    conference: Under Review
     # pdf: https://arxiv.org/abs/xxxx.xxxxx
     # code: https://github.com/xxx
     # preprint: https://arxiv.org/abs/xxxx.xxxxx
     
   - title: "Prism: Parametrically Restructured Inference for Speculative Sampling Draft Models"
     authors: Xuliang Wang*, <strong>Yuetao Chen</strong>*, Maochan Zhen, Fang Liu, Xinzhou Zheng, Xingwu Liu, Hong Xu, Ming Li
+    conference: Under Review
 
   - title: "Echo: Simulating Distributed Training at Scale"
     authors: Yicheng Feng, <strong>Yuetao Chen</strong>, Kaiwen Chen, Jingzong Li, Tianyuan Wu, Peng Cheng, Chuan Wu, Wei Wang, Tsung-Yi Ho, Hong Xu
