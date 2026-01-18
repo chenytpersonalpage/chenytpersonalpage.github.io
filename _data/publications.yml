@@ -4,7 +4,7 @@ published:
   - title: "DSV: Dynamic Sparsity in Large-Scale Video DiT Training"
     authors: Xin Tan, <strong>Yuetao Chen</strong>, Yimin Jiang, Xing Chen, Kun Yan, Nan Duan, Yibo Zhu, Daxin Jiang, Hong Xu
     conference_short: ASPLOS
-    conference: ACM International Conference on Architectural Support for Programming Languages and Operating Systems <strong>(ASPLOS)</strong>, 2025.
+    conference: ACM International Conference on Architectural Support for Programming Languages and Operating Systems <strong>(ASPLOS)</strong>, 2026.
     pdf: https://dl.acm.org/doi/10.1145/3760250.3762216
     code: https://github.com/NetX-lab/DSV/tree/ae
     # bibtex: https://bib.yliu.me/MICCAI23.txt
