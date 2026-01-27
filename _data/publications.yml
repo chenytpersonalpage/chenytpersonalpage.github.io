@@ -1,6 +1,12 @@
 # 已发表论文
 published:
 
+  - title: "PRISM: Prism: Parametrically Restructured Inference for Speculative Sampling Draft Models"
+    authors: Xuliang Wang*, <strong>Yuetao Chen</strong>*, Maochan Zhen, Fang Liu, Xinzhou Zheng, Xingwu Liu, Hong Xu, Ming Li
+    conference_short: MLSys
+    conference: Annual Conference on Machine Learning and Systems <strong>(MLSys)</strong>, 2026.
+
+
   - title: "DSV: Dynamic Sparsity in Large-Scale Video DiT Training"
     authors: Xin Tan, <strong>Yuetao Chen</strong>, Yimin Jiang, Xing Chen, Kun Yan, Nan Duan, Yibo Zhu, Daxin Jiang, Hong Xu
     conference_short: ASPLOS
@@ -39,9 +45,9 @@ preprints:
     # code: https://github.com/xxx
     # preprint: https://arxiv.org/abs/xxxx.xxxxx
     
-  - title: "Prism: Parametrically Restructured Inference for Speculative Sampling Draft Models"
-    authors: Xuliang Wang*, <strong>Yuetao Chen</strong>*, Maochan Zhen, Fang Liu, Xinzhou Zheng, Xingwu Liu, Hong Xu, Ming Li
-    conference: Under Review
+  # - title: "Prism: Parametrically Restructured Inference for Speculative Sampling Draft Models"
+  #   authors: Xuliang Wang*, <strong>Yuetao Chen</strong>*, Maochan Zhen, Fang Liu, Xinzhou Zheng, Xingwu Liu, Hong Xu, Ming Li
+  #   conference: Under Review
 
   - title: "Echo: Simulating Distributed Training at Scale"
     authors: Yicheng Feng, <strong>Yuetao Chen</strong>, Kaiwen Chen, Jingzong Li, Tianyuan Wu, Peng Cheng, Chuan Wu, Wei Wang, Tsung-Yi Ho, Hong Xu
