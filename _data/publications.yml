@@ -1,10 +1,11 @@
 # 已发表论文
 published:
 
-  - title: "PRISM: Prism: Parametrically Restructured Inference for Speculative Sampling Draft Models"
+  - title: "PRISM: Parametrically Refactoring Inference for Speculative Sampling Draft Models"
     authors: Xuliang Wang*, <strong>Yuetao Chen</strong>*, Maochan Zhen, Fang Liu, Xinzhou Zheng, Xingwu Liu, Hong Xu, Ming Li
     conference_short: MLSys
     conference: Annual Conference on Machine Learning and Systems <strong>(MLSys)</strong>, 2026.
+    pdf: https://arxiv.org/pdf/2602.01762
 
 
   - title: "DSV: Dynamic Sparsity in Large-Scale Video DiT Training"
