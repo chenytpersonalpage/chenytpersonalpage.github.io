@@ -17,6 +17,11 @@ Hi, I am a second year Ph.D. student at The Chinese University of Hong Kong, sup
 - **2021 - 2024:** Master student at University of Chinese Academy of Sciences (UCAS).
 - **2017 - 2021:** Bachelor student at Beijing Jiaotong University (BJTU).
 
+## Awards
+
+- [ML and Systems Rising Star](https://mlcommons.org/2026/05/2026-rising-stars/) — ML Commons 2026
+- Best Paper Award — ACM PPoPP 2024
+
 
 <!-- ## News
 
