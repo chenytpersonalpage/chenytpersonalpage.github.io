@@ -1,11 +1,17 @@
 # 已发表论文
 published:
 
+  - title: "Scalable and Efficient Simulation of LLM Training"
+    authors: Yicheng Feng, Kin Hang Sew, <strong>Yuetao Chen</strong>, Kaiwen Chen, Jingzong Li, Tianyuan Wu, Zheng Zhou, Peng Cheng, Chuan Wu, Wei Wang, Tsung-Yi Ho, Hong Xu
+    conference_short: SC
+    conference: International Conference for High Performance Computing, Networking, Storage, and Analysis <strong>(SC)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2412.12487
+
   - title: "PRISM: Parametrically Refactoring Inference for Speculative Sampling Draft Models"
     authors: Xuliang Wang*, <strong>Yuetao Chen</strong>*, Maochan Zhen, Fang Liu, Xinzhou Zheng, Xingwu Liu, Hong Xu, Ming Li
     conference_short: MLSys
     conference: Annual Conference on Machine Learning and Systems <strong>(MLSys)</strong>, 2026.
-    pdf: https://arxiv.org/pdf/2602.01762
+    pdf: https://openreview.net/forum?id=cvU2HuuxEf
 
 
   - title: "DSV: Dynamic Sparsity in Large-Scale Video DiT Training"
@@ -50,7 +56,7 @@ preprints:
   #   authors: Xuliang Wang*, <strong>Yuetao Chen</strong>*, Maochan Zhen, Fang Liu, Xinzhou Zheng, Xingwu Liu, Hong Xu, Ming Li
   #   conference: Under Review
 
-  - title: "Echo: Simulating Distributed Training at Scale"
-    authors: Yicheng Feng, <strong>Yuetao Chen</strong>, Kaiwen Chen, Jingzong Li, Tianyuan Wu, Peng Cheng, Chuan Wu, Wei Wang, Tsung-Yi Ho, Hong Xu
-    conference: arXiv:2412.12487, 2024.
-    pdf: https://arxiv.org/abs/2412.12487
+  # - title: "Echo: Simulating Distributed Training at Scale"
+  #   authors: Yicheng Feng, <strong>Yuetao Chen</strong>, Kaiwen Chen, Jingzong Li, Tianyuan Wu, Peng Cheng, Chuan Wu, Wei Wang, Tsung-Yi Ho, Hong Xu
+  #   conference: arXiv:2412.12487, 2024.
+  #   pdf: https://arxiv.org/abs/2412.12487
